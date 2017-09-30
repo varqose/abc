@@ -31,7 +31,7 @@ function playingFacebook(){
 
 function playingMessenger(){
     if(messenger.checked){
-        //msound.play();
+        msound.play();
         console.log("--messenger *ding*--"+"    "+czasTeraz());
         setTimeout(playingMessenger, losowyCzas());
     } else {
