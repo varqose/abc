@@ -4,7 +4,7 @@ var messenger = document.getElementsByName("messenger")[0];
 
 // muzyczka
 var fsound = new Audio('./js/fsound.mp3');
-//var msound = new Audio('msound.mp3');
+var msound = new Audio('./js/msound.mp3');
 
 // czas
 function czasTeraz(){
